@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  width: 100%;
+  height: 100%;
+  background-color: #d5ff40;
+}
+
+/* NAVBAR */
+
+nav{
+  background-color: #d5ff40;
+  padding: 60px 130px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .part2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+nav h2{
+  font-size: 48px;
+  font-weight: 500;
+}
+
+nav a{
+  font-size: 30px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+/* HERO SECTION */
+
+section{
+  padding: 60px 130px;
+}
+
+/* FIRST ROW */
+
+section .hero-text1{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.hero-text1 h1{
+  font-size: 220px;
+  text-transform: uppercase;
+  line-height: 0.85;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  letter-spacing: -8px;
+}
+
+/* VIDEO */
+
+.hero-text1 .video{
+  height: 120px;
+  width: 420px;
+  background-color: #000000;
+  border-radius: 100px;
+  margin-top: 20px;
+  background-image: url(https://images.unsplash.com/photo-1446776653964-20c1d3a81b06?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  padding: 5px;
+  /*background-position: right; */
+}
+.video .play {
+  height: 100%;
+  width: 150px;
+  border-radius: 100px;
+  background-color: rgb(0,0,0);
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  }
+  .play i{
+    font-size: 50px;
+    color: #fff;
+
+  }
+
+/* SECOND ROW */
+
+section .hero-text2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: -5px;
+}
+
+/* IDEAS */
+
+.hero-text2 h1{
+  font-size: 220px;
+  text-transform: uppercase;
+  line-height: 0.85;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  letter-spacing: -8px;
+  position: relative;
+  z-index: 2;
+}
+
+/* PARAGRAPH */
+
+.hero-text2 p{
+  width: 420px;
+  font-size: 28px;
+  line-height: 1.4;
+  margin-top: 20px;
+  color: black;
+}
